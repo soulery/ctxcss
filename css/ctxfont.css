@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'ctxfont';
+  src: url('../font/ctxfont.eot?65901241');
+  src: url('../font/ctxfont.eot?65901241#iefix') format('embedded-opentype'),
+       url('../font/ctxfont.woff2?65901241') format('woff2'),
+       url('../font/ctxfont.woff?65901241') format('woff'),
+       url('../font/ctxfont.ttf?65901241') format('truetype'),
+       url('../font/ctxfont.svg?65901241#ctxfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'ctxfont';
+    src: url('../font/ctxfont.svg?65901241#ctxfont') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "ctxfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-appv:before { content: '\e800'; } /* '' */
+.icon-applications:before { content: '\e801'; } /* '' */
+.icon-beacon:before { content: '\e802'; } /* '' */
+.icon-cloud:before { content: '\e803'; } /* '' */
+.icon-cloudvms:before { content: '\e804'; } /* '' */
+.icon-cloudplatform:before { content: '\e805'; } /* '' */
+.icon-cloudconnector:before { content: '\e806'; } /* '' */
+.icon-deliverycontroller:before { content: '\e808'; } /* '' */
+.icon-deliverygroup:before { content: '\e809'; } /* '' */
+.icon-deliverynetworks:before { content: '\e80a'; } /* '' */
+.icon-desktopplayer:before { content: '\e80b'; } /* '' */
+.icon-laptops:before { content: '\e80c'; } /* '' */
+.icon-image:before { content: '\e80d'; } /* '' */
+.icon-hosts:before { content: '\e80e'; } /* '' */
+.icon-hdx3dprodesktop:before { content: '\e80f'; } /* '' */
+.icon-hdx:before { content: '\e810'; } /* '' */
+.icon-hdd:before { content: '\e811'; } /* '' */
+.icon-gpu:before { content: '\e812'; } /* '' */
+.icon-cpuram:before { content: '\e813'; } /* '' */
+.icon-firewall:before { content: '\e814'; } /* '' */
+.icon-driver:before { content: '\e815'; } /* '' */
+.icon-director:before { content: '\e816'; } /* '' */
+.icon-global:before { content: '\e817'; } /* '' */
+.icon-license-server:before { content: '\e818'; } /* '' */
+.icon-license:before { content: '\e819'; } /* '' */
+.icon-loadbalancer:before { content: '\e81a'; } /* '' */
+.icon-netscalergateway:before { content: '\e81b'; } /* '' */
+.icon-pc:before { content: '\e81c'; } /* '' */
+.icon-personaldesktop:before { content: '\e81d'; } /* '' */
+.icon-phone:before { content: '\e81e'; } /* '' */
+.icon-policies:before { content: '\e81f'; } /* '' */
+.icon-pooleddesktop:before { content: '\e820'; } /* '' */
+.icon-provisioning-services:before { content: '\e821'; } /* '' */
+.icon-receiver:before { content: '\e822'; } /* '' */
+.icon-remotepcaccess:before { content: '\e823'; } /* '' */
+.icon-support:before { content: '\e824'; } /* '' */
+.icon-ssltunnel:before { content: '\e825'; } /* '' */
+.icon-ssd:before { content: '\e826'; } /* '' */
+.icon-sql--database:before { content: '\e827'; } /* '' */
+.icon-sharefile:before { content: '\e828'; } /* '' */
+.icon-sharedlinuxdesktop:before { content: '\e829'; } /* '' */
+.icon-shareddesktop:before { content: '\e82a'; } /* '' */
+.icon-servers:before { content: '\e82b'; } /* '' */
+.icon-securebrowser:before { content: '\e82c'; } /* '' */
+.icon-secure:before { content: '\e82d'; } /* '' */
+.icon-tablet:before { content: '\e82e'; } /* '' */
+.icon-thinclient:before { content: '\e82f'; } /* '' */
+.icon-user:before { content: '\e830'; } /* '' */
+.icon-vcpu:before { content: '\e831'; } /* '' */
+.icon-virtualdeliveryagent:before { content: '\e832'; } /* '' */
+.icon-virtualmachine:before { content: '\e833'; } /* '' */
+.icon-vmhostedapp:before { content: '\e834'; } /* '' */
+.icon-webapp:before { content: '\e835'; } /* '' */
+.icon-winapp:before { content: '\e836'; } /* '' */
+.icon-zone:before { content: '\e837'; } /* '' */
+.icon-active-directory:before { content: '\e838'; } /* '' */
+.icon-xenmobile:before { content: '\e839'; } /* '' */
+.icon-storefront:before { content: '\e83a'; } /* '' */
+.icon-studio:before { content: '\e83b'; } /* '' */
+.icon-appdisk:before { content: '\e83c'; } /* '' */
+.icon-appdna:before { content: '\e83d'; } /* '' */
+.icon-admin:before { content: '\e83e'; } /* '' */
